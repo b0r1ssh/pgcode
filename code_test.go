@@ -823,6 +823,8 @@ func TestNameRoundtrip(t *testing.T) {
 
 // TestNameUnknown verifies Name() returns empty string for unknown codes.
 func TestNameUnknown(t *testing.T) {
+	t.Parallel()
+
 	unknown := []string{"", "99999", "ZZZZZ", "00001"}
 	for _, code := range unknown {
 		if got := pgcode.Name(code); got != "" {
