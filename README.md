@@ -2,6 +2,7 @@
 
 [![CI](https://github.com/b0r1ssh/pgcode/actions/workflows/go-test.yml/badge.svg)](https://github.com/b0r1ssh/pgcode/actions/workflows/go-test.yml)
 [![Go Reference](https://pkg.go.dev/badge/github.com/b0r1ssh/pgcode.svg)](https://pkg.go.dev/github.com/b0r1ssh/pgcode)
+[![codecov](https://codecov.io/github/b0r1ssh/pgcode/graph/badge.svg?token=U5FGJJQRVP)](https://codecov.io/github/b0r1ssh/pgcode)
 
 A small Go package exposing PostgreSQL SQLSTATE constants as typed string values.
 
